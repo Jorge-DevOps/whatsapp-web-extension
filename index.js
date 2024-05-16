@@ -1,6 +1,6 @@
 const qrcode = require('qrcode-terminal');
 const { MessageMedia } = require('whatsapp-web.js');
-const media = MessageMedia.fromFilePath('./assets/promo.jpeg');
+const media = MessageMedia.fromFilePath('./assets/Post.png');
 const { Client, NoAuth } = require('whatsapp-web.js');
 
 // equivalent to
@@ -13,18 +13,12 @@ client.on('qr', qr => {
 
 client.on('ready', () => {
     console.log('Client is ready!');
-    const number = "+573144576788";
-    const text = "Hey Bebe envie este mensaje desde el programa de Jorge";
+    const number = "+573058158944";
     const chatId = number.substring(1) + "@c.us";
-    const number2 = "+573132328656";
-    const text2 = "Hey Mauricio envie este mensaje desde el programa de Jorge";
-    const chatId2 = number2.substring(1) + "@c.us";
-
-    client.sendMessage(chatId, media);
-    client.sendMessage(chatId, text);
+    const text = "Hola, Soy Colombiano Ingeniero de sistemas, vivo en Bogota, planeo emigrar a Australia, me gustaria conectar con personas alli para no estar tan perdido, gracias!";
     
+    client.sendMessage(chatId, text);
     client.sendMessage(chatId, media);
-    client.sendMessage(chatId, text2);
 });
 client.initialize();
-
+ 

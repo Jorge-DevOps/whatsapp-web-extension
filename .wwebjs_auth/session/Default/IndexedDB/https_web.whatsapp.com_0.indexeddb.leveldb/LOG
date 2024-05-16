@@ -1,0 +1,7 @@
+2023/06/09-16:10:18.288 4206c Creating DB /home/jdevops/jDisk/Projects/whastapp-message/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2023/06/09-16:10:18.438 4206c Reusing MANIFEST /home/jdevops/jDisk/Projects/whastapp-message/.wwebjs_auth/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/09-16:10:20.479 4206c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/06/09-16:10:22.837 4206c Level-0 table #5: started
+2023/06/09-16:10:23.004 4206c Level-0 table #5: 27241 bytes OK
+2023/06/09-16:10:23.142 4206c Delete type=0 #3
+2023/06/09-16:10:23.143 4206c Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)
